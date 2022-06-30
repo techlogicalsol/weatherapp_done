@@ -1,0 +1,132 @@
+body{
+  font-family: 'Merriweather', serif;
+  
+}
+
+input[type=text]{
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: whitesmoke;
+  width: 60%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus{
+  width: 100%;
+}
+
+.main_col{
+  background-color: #00539C;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.main_col h1{
+  color: #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px yellow;
+}
+
+.mybtn{
+  letter-spacing: 2px;
+  width: 60%;
+  
+}
+
+.card-header{
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  border-bottom: 1px solid rgb(182, 181, 181);
+  
+}
+
+.city_country{
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #333;
+}
+
+.myImg{
+  width: 120px;
+  height: 120px;
+
+}
+
+.myImgCol{
+  display: flex;
+  align-items: center;
+}
+
+.main_Temp{
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.main_Temp p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.temperature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.min{
+  font-size: 12px;
+}
+
+.min p{
+  margin-top: 10px;
+}
+
+.info h6{
+  border-bottom: 1px solid #ddd;
+  width: 30%;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.my_col1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+
+.icon{
+  font-size: 30px;
+}
+
+
+
+.mybtn1{
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.mylink{
+  color: white;
+}
+
+.mylink:hover{
+  color: white;
+}
